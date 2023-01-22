@@ -3,11 +3,8 @@ html{
 }
   
 body{
-      font-family: 'Inter', sans-serif;
-      color: white;
-      background-image: linear-gradient(rgb(205, 192, 177), antiquewhite);
-      background-attachment: fixed;
-      /* #545454, #E6A860 */
+    background-image: linear-gradient(rgba(205, 192, 177), antiquewhite);
+    background-attachment: fixed;
 }
 
 h1{
@@ -16,7 +13,7 @@ h1{
     position: fixed;
     width: 100%;
     z-index: 1;
-    top: 2rem;
+    top: 1rem;
 }
 
 header{
@@ -34,16 +31,22 @@ ul{
 .cont{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.reform{
-    background-image: url(../public/img/ref.png);
-    background-size: cover;
-    background-position: center;
+#reformas{
+    background-image: url(../public/img/reforma.png);
+}
 
+#inmuebles{
+    background-image: url(../public/img/inmueble.png);
+}
+
+.home{
     height: 100vh;
     width: 100vw;
-
+    background-size: cover;
+    background-position: center;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 
@@ -51,32 +54,16 @@ ul{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    color: white;
 }
 
-.inmob{
-    background-image: url(../public/img/inm.png);
-    background-size: cover;
-    background-position: center;
-    
-    height: 100vh;
-    width: 100vw;
-
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-}
-
-.reform:hover, .inmob:hover{
+#reformas:hover, #inmuebles:hover{
     filter: none;
     -webkit-filter: grayscale(0);
     transition-duration: 0.4s;
 }
 
-.icon{
+footer{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -86,8 +73,7 @@ ul{
 }
 
 .card{
-    /* From https://css.glass */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 0.8rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -104,14 +90,7 @@ ul{
     transition-duration: 0.4s;
 }
 
-.cardHeader{
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 0.8rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    padding: 1rem;
-    margin: 0.4rem;
+.card a{
     width: 12rem;
     text-align: center;
 }

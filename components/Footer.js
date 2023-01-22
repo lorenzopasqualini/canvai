@@ -4,10 +4,10 @@ import Icon from 'react-simple-icons'
 
 function Footer() {
   return (
-    <div className='icon'>
+    <footer>
       <Link href='' className='card'> <Icon name='instagram' /> </Link>
       <Link href='' className='card'> <Icon name='facebook' /> </Link>
-    </div>
+    </footer>
   )
 }
 

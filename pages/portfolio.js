@@ -13,12 +13,10 @@ function portfolio() {
 
       <HeaderRef />
 
-      <div className='about'>
-        <h3>Contamos con más de 30 años de trayectoria en el rubro de la construcción y las reformas. A continuación podrás ver imágenes de algunos de nuestros trabajos de arquitectura.</h3>
-      </div>
-
-      <div className='about'>
-        <p>carousel</p>
+      <div className='parent'>
+        <div className='child'>
+          Contamos con más de 30 años de trayectoria en el rubro de la construcción y las reformas. A continuación podrás ver imágenes de algunos de nuestros trabajos de arquitectura.
+        </div>
       </div>
 
       <Footer />

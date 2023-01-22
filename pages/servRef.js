@@ -13,19 +13,23 @@ function servRef() {
 
       <HeaderRef />
 
-      <div className='content'>
-        <Image src="/img/reformas.png" width="100" height="100" />
-        <div className='child'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </div>
+      <div className='parent'>
 
-      <div className='content'>
-        <Image src="/img/reformas.png" width="100" height="100" />
-        <div className='child'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </div>
+        <div className='child'>
+          <Image src="/img/kitchen.png" width="100" height="100" />
+          Realizamos reformas parciales: baños, cocinas o cualquier aspecto puntual de tu inmueble que requiera una refacción!
+        </div>
 
-      <div className='content'>
-        <Image src="/img/reformas.png" width="100" height="100" />
-        <div className='child'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <div className='child'>
+          <Image src="/img/home.png" width="100" height="100" />
+          Realizamos reformas integrales: tu inmueble completamente a estrenar! Esta es tu mejor opción sí quieres dejar todo como nuevo.
+        </div>
+
+        <div className='child'>
+          <Image src="/img/building.png" width="100" height="100" />
+          Realizamos construcción a nuevo ¿Tienes un terreno y quieres construir la casa de tus sueños? Juntos lo hacemos realidad!
+        </div>
+
       </div>
 
       <Footer />

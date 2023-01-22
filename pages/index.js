@@ -14,13 +14,15 @@ export default function Home() {
     <Logo />
 
     <div className="cont">
-      <div className="reform">
+
+      <div className="home" id='reformas'>
         <Link href="/reformas" className='card'> Reformas </Link>
       </div>
 
-      <div className="inmob">
+      <div className="home" id='inmuebles'>
         <Link href="/inmuebles" className='card'> Inmuebles </Link>
       </div>
+
     </div>
     </>
   )
