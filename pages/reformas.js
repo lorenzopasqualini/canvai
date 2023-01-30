@@ -1,29 +1,37 @@
 import React from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
-import HeaderRef from '../components/HeaderRef'
+import HeaderR from '../components/HeaderR'
+import HomeR from '../components/HomeR'
+import ServicioR from '../components/ServicioR'
+import Portfolio from '../components/Portfolio'
+import Nosotros from '../components/Nosotros'
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
 function reforma() {
   return (
     <>
-      <Head>
-        <title>Reformas</title>
-      </Head>
+    <Head>
+      <title>Reformas</title>
+    </Head>
 
-      <HeaderRef />
+    <HeaderR />
 
-        <div className='parent'>
+    <div className='container'>
 
-          <Image src="/img/atrb.png" width="250" height="250" />
+      <HomeR />
 
-          <div className='child'>
-            <p> Tenemos más de 30 años de experiencia en arquitectura y reformas. Para ofrecer las mejores condiciones, garantías y transparencia, somos franquiciados AQUÍ TU REFORMA. Podemos ofrecerte financiación para tu reforma, garantía de calidad y cumplimiento de plazos. ¡Consúltanos! </p>
-          </div>
+      <ServicioR />
 
-        </div>
+      <Portfolio />
 
-      <Footer />
+      <Nosotros />
+
+      <Contact />
+
+    </div>
+
+    <Footer />
     </>
   )
 }
