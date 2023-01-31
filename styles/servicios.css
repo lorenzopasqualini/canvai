@@ -6,7 +6,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem 16rem;
+    margin: 12rem 18rem 2rem 18rem;
     gap: 2rem;
 }
 
@@ -24,12 +24,13 @@ img{
     text-align: justify;
     gap: 1rem;
     padding: 2rem;
+    flex-basis: 100%;
 }
 
 .child{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 1rem;
 }
 
@@ -42,4 +43,14 @@ img{
 
 #svc{
     flex-direction: column;
+    text-align: center;
+}
+
+#contact{
+    width: 20rem;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
 }

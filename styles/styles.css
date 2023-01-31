@@ -7,25 +7,31 @@ body{
     background-attachment: fixed;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top: 1rem;
-}
-
 header{
-    margin-top: 2rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+    width: 96%;
+    padding: 1rem;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
-ul{
+footer{
+    position: fixed;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    gap: 1rem;
+    bottom: 0;
+    width: 100%;
+    gap: 0.5rem;
+    margin: 1rem 2rem;
 }
 
 .cont{
@@ -49,12 +55,10 @@ ul{
     background-position: center;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
-
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: white;
 }
 
 #reformas:hover, #inmuebles:hover{
@@ -63,17 +67,8 @@ ul{
     transition-duration: 0.4s;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
 .card{
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 0.8rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -93,4 +88,13 @@ footer{
 .card a{
     width: 12rem;
     text-align: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 1rem;
 }

@@ -5,13 +5,11 @@ import Image from 'next/image';
 function HeaderRef() {
   return (
     <header>
-        <ul>
-            <Link href='#nosotros'> <li className='card'> ¿Quiénes Somos? </li> </Link>
-            <Link href='#servicios'> <li className='card'> Servicios Reformas </li> </Link>
-            <Link href='/'> <li> <Image src='/favicon.ico' width='100' height='100' sty/> </li> </Link>
-            <Link href='#portfolio'> <li className='card'> Portfolio </li> </Link>
-            <Link href='#contact'> <li className='card'> ¡Contáctanos! </li> </Link>
-        </ul>
+      <Link href='#nosotros'> <li className='card'> Sobre Nosotros </li> </Link>
+      <Link href='#servicios'> <li className='card'> Servicios Reformas </li> </Link>
+      <Link href='/'> <Image src='/favicon.ico' width='100' height='100' sty/> </Link>
+      <Link href='#portfolio'> <li className='card'> Portfolio </li> </Link>
+      <Link href='#contact'> <li className='card'> ¡Contáctanos! </li> </Link>
     </header>
   )
 }
