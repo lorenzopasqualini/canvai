@@ -11,7 +11,7 @@ export default function Contact() {
         <div className='parent'>
           <Image src="/favicon.ico" width="100" height="100" />
           <h4> CAN VAI S.L. </h4>
-          <h5> NIF n° B72506785 </h5>
+          <h5> NIF B72506785 </h5>
         </div>
 
         <div className='parent' id='contact'>

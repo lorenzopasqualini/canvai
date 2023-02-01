@@ -16,11 +16,11 @@ export default function Home() {
     <div className="cont">
 
       <div className="home" id='reformas'>
-        <Link href="/reformas" className='card'> Reformas </Link>
+        <Link href="/reformas" className='card' id='index'> Reformas </Link>
       </div>
 
       <div className="home" id='inmuebles'>
-        <Link href="/inmuebles" className='card'> Inmuebles </Link>
+        <Link href="/inmuebles" className='card' id='index'> Inmuebles </Link>
       </div>
 
     </div>

@@ -23,7 +23,7 @@ export default function ServicioReforma() {
 
             <div className='child'>
                 <div className='parent'>
-                    <Image src="/img/building.png" width="100" height="100" />
+                    <Image src="/img/crane.png" width="100" height="100" />
                     Realizamos CONSTRUCCIÓN, obra nueva: ¿Tienes un terreno y quieres construir la casa de tus sueños? Juntos lo hacemos realidad!
                 </div>
             </div>

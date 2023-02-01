@@ -5,8 +5,11 @@ import Icon from 'react-simple-icons'
 function Footer() {
   return (
     <footer>
-      <Link href='' className='card'> <Icon name='instagram' /> </Link>
-      <Link href='' className='card'> <Icon name='facebook' /> </Link>
+      <div style={{ display: 'flex' }}>
+        <Link href='' className='icon'> <Icon name='instagram' /> </Link>
+        <Link href='' className='icon'> <Icon name='facebook' /> </Link>
+      </div>
+      <a target="_blank" href="https://icons8.com" style={{ color: 'white', display: 'flex', alignItems: 'flex-end' }}>Icons by icons8.com</a>
     </footer>
   )
 }

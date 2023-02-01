@@ -9,29 +9,29 @@ export default function Portfolio() {
       <h2>Portfolio</h2>
       Contamos con más de 30 años de trayectoria en el rubro de la construcción, arquitectura y las reformas. A continuación podrás ver imágenes de algunos de nuestros trabajos más recientes.
 
-      <Splide options={{width: '50rem', rewind: true, autoplay: true, interval: 2500, easing: 'cubic-bezier(0.25, 1, 0.5, 1)', arrows: false }}>
+      <Splide options={{width: '65rem', rewind: true, autoplay: true, interval: 3500, easing: 'cubic-bezier(0.25, 1, 0.5, 1)', arrows: false }}>
         <SplideSlide>
-          <Image src='/img/7.png' width='768' height='364'/>
+          <Image src='/img/7.png' width='1000' height='600'/>
         </SplideSlide>
 
         <SplideSlide>
-          <Image src='/img/8.png' width='768' height='364'/>
+          <Image src='/img/8.png' width='1000' height='600'/>
         </SplideSlide>
 
         <SplideSlide>
-          <Image src='/img/9.png' width='768' height='364'/>
+          <Image src='/img/9.png' width='1000' height='600'/>
         </SplideSlide>
 
         <SplideSlide>
-          <Image src='/img/11.png' width='768' height='364'/>
+          <Image src='/img/11.png' width='1000' height='600'/>
         </SplideSlide>
 
         <SplideSlide>
-          <Image src='/img/12.png' width='768' height='364'/>
+          <Image src='/img/12.png' width='1000' height='600'/>
         </SplideSlide>
 
         <SplideSlide>
-          <Image src='/img/13.png' width='768' height='364'/>
+          <Image src='/img/13.png' width='1000' height='600'/>
         </SplideSlide>
       </Splide>
 

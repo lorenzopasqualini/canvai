@@ -1,5 +1,6 @@
 img{
     border-radius: 0.5rem;
+    pointer-events: none;
 }
 
 .container{

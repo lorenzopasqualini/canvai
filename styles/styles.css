@@ -3,7 +3,7 @@ html{
 }
   
 body{
-    background-image: linear-gradient(rgba(205, 192, 177), antiquewhite);
+    background-image: linear-gradient(#C9B79C, #ebe7df);
     background-attachment: fixed;
 }
 
@@ -26,11 +26,11 @@ header{
 }
 
 footer{
-    position: fixed;
     display: flex;
+    position: fixed;
+    justify-content: space-between;
     bottom: 0;
     width: 100%;
-    gap: 0.5rem;
     margin: 1rem 2rem;
 }
 
@@ -42,6 +42,7 @@ footer{
 
 #reformas{
     background-image: url(../public/img/reforma.png);
+    border-right: 4px solid white;
 }
 
 #inmuebles{
@@ -74,8 +75,10 @@ footer{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     padding: 1rem;
+    width: 12rem;
     margin: 0.4rem;
     display: flex;
+    justify-content: center;
     align-items: center;
     transition-duration: 0.4s;
 }
@@ -96,5 +99,36 @@ h1{
     position: fixed;
     width: 100%;
     z-index: 1;
-    top: 1rem;
+    top: 2rem;
+}
+
+#index{
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: larger;
+}
+
+.icon{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 1rem;
+    margin: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+
+@media (max-width: 800px){
+    footer{
+        justify-content: center;
+    }
+
+    .parent{
+        display: grid;
+        font-size: 1rem;
+    }
 }

@@ -7,9 +7,9 @@ export default function Propiedades() {
         <h2>Propiedades</h2>
 
         <div className='child' style={{ display: 'flex', alignItems: 'center' }}>
-          <Image src='/img/warn.png' width='100' height='100' />
+          <Image src='/img/warn.png' width='50' height='50' />
           Oops! In construction. Coming soon.
-          <Image src='/img/warn.png' width='100' height='100' />
+          <Image src='/img/warn.png' width='50' height='50' />
         </div>
     </div>
   )
