@@ -41,12 +41,12 @@ footer{
 }
 
 #reformas{
-    background-image: url(../public/img/reforma.png);
+    background-image: url(../public/img/reformas.jpg);
     border-right: 4px solid white;
 }
 
 #inmuebles{
-    background-image: url(../public/img/inmueble.png);
+    background-image: url(../public/img/inmuebles.jpg);
 }
 
 .home{
@@ -83,7 +83,7 @@ footer{
     transition-duration: 0.4s;
 }
 
-.card:hover{
+.card:hover, .icon:hover{
     padding: 1.5rem;
     transition-duration: 0.4s;
 }

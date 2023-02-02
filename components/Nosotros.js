@@ -14,13 +14,13 @@ export default function Nosotros() {
 
         <div className='child'>
           <div className='parent'>
-            <Image src='/img/pia.jpg' width='150' height='150' />
+            <Image src='/img/pp.jpg' width='150' height='150' />
             <h4>Pía Pasqualini</h4>
             <h6>Inmobiliario AICAT 11939</h6>
           </div>
 
           <div className='parent'>
-            <Image src='/img/marcelo.jpg' width='150' height='150' />
+            <Image src='/img/mp.jpg' width='150' height='150' />
             <h4>Marcelo Pasqualini</h4>
             <h6>Arquitecto</h6>
           </div>
